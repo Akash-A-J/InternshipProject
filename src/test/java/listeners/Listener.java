@@ -17,4 +17,4 @@ public class Listener extends Base implements ITestListener {
             ScreenshotUtil.takeScreenshot(driver, result.getName());
         }
     }
-}65
+}

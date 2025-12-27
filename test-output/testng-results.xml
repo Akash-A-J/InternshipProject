@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-23T10:44:49 IST" name="Default suite" finished-at="2025-12-23T10:44:58 IST" duration-ms="8879">
+    <groups>
+    </groups>
+    <test started-at="2025-12-23T10:44:49 IST" name="Default test" finished-at="2025-12-23T10:44:58 IST" duration-ms="8879">
+      <class name="testcase.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:49 IST" name="setup" finished-at="2025-12-23T10:44:51 IST" duration-ms="2340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:51 IST" name="SetUp" finished-at="2025-12-23T10:44:51 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="tc001_login()[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:51 IST" name="tc001_login" finished-at="2025-12-23T10:44:52 IST" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc001_login -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:52 IST" name="captureScreenshotOnFailure" finished-at="2025-12-23T10:44:52 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc001_login status=SUCCESS method=LoginTest.tc001_login()[pri:0, instance:testcase.LoginTest@6f03482] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="tc002_addProject()[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:52 IST" name="tc002_addProject" finished-at="2025-12-23T10:44:54 IST" duration-ms="1831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc002_addProject -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:54 IST" name="captureScreenshotOnFailure" finished-at="2025-12-23T10:44:54 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc002_addProject status=SUCCESS method=LoginTest.tc002_addProject()[pri:0, instance:testcase.LoginTest@6f03482] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="tc003_addMentor()[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:54 IST" name="tc003_addMentor" finished-at="2025-12-23T10:44:56 IST" duration-ms="2124" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1ujsas3" tabindex="0" type="button">...</button> is not clickable at point (1028, 526). Other element would receive the click: <div class="MuiAutocomplete-noOptions css-t0bixx" role="presentation">...</div>
+  (Session info: chrome=143.0.7499.170)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ca986675c3faafc221c9e6bcb1de4bf0, clickElement {id=f.1760CF04D70838A48CB398474B5DCCC1.d.259979E07A2671E3C9195388121A18DE.e.35}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:/temp/chrome-profile-auto...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50938}, goog:processID: 9716, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50938/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ca986675c3faafc221c9e6bcb1de4bf0)] -> xpath: //button[text()='Add']]
+Session ID: ca986675c3faafc221c9e6bcb1de4bf0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1ujsas3" tabindex="0" type="button">...</button> is not clickable at point (1028, 526). Other element would receive the click: <div class="MuiAutocomplete-noOptions css-t0bixx" role="presentation">...</div>
+  (Session info: chrome=143.0.7499.170)
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ca986675c3faafc221c9e6bcb1de4bf0, clickElement {id=f.1760CF04D70838A48CB398474B5DCCC1.d.259979E07A2671E3C9195388121A18DE.e.35}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:/temp/chrome-profile-auto...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50938}, goog:processID: 9716, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50938/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ca986675c3faafc221c9e6bcb1de4bf0)] -> xpath: //button[text()='Add']]
+Session ID: ca986675c3faafc221c9e6bcb1de4bf0
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at pages.MentorHome.mntrAdd(MentorHome.java:58)
+at testcase.LoginTest.tc003_addMentor(LoginTest.java:74)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc003_addMentor -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:56 IST" name="captureScreenshotOnFailure" finished-at="2025-12-23T10:44:56 IST" duration-ms="208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc003_addMentor status=FAILURE method=LoginTest.tc003_addMentor()[pri:0, instance:testcase.LoginTest@6f03482] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="tc004_logut()[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:56 IST" name="tc004_logut" finished-at="2025-12-23T10:44:56 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc004_logut -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:56 IST" name="captureScreenshotOnFailure" finished-at="2025-12-23T10:44:56 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc004_logut status=SUCCESS method=LoginTest.tc004_logut()[pri:0, instance:testcase.LoginTest@6f03482] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="tc005_wrong()[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:56 IST" name="tc005_wrong" finished-at="2025-12-23T10:44:56 IST" duration-ms="408" status="FAIL">
+          <exception class="java.lang.NoSuchMethodError">
+            <message>
+              <![CDATA['org.apache.commons.io.input.BoundedInputStream$Builder org.apache.commons.io.input.BoundedInputStream.builder()']]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchMethodError: 'org.apache.commons.io.input.BoundedInputStream$Builder org.apache.commons.io.input.BoundedInputStream.builder()'
+at org.apache.poi.util.IOUtils.peekFirstNBytes(IOUtils.java:153)
+at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:209)
+at org.apache.poi.openxml4j.opc.internal.ZipHelper.verifyZipHeader(ZipHelper.java:147)
+at org.apache.poi.openxml4j.opc.internal.ZipHelper.openZipStream(ZipHelper.java:191)
+at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:210)
+at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:517)
+at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:490)
+at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:67)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:315)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:289)
+at utility.ExcelUtility.readExcel(ExcelUtility.java:17)
+at testcase.LoginTest.tc005_wrong(LoginTest.java:87)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc005_wrong -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:56 IST" name="captureScreenshotOnFailure" finished-at="2025-12-23T10:44:57 IST" duration-ms="413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc005_wrong status=FAILURE method=LoginTest.tc005_wrong()[pri:0, instance:testcase.LoginTest@6f03482] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="tc006_signup()[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:57 IST" name="tc006_signup" finished-at="2025-12-23T10:44:57 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc006_signup -->
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:57 IST" name="captureScreenshotOnFailure" finished-at="2025-12-23T10:44:57 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc006_signup status=SUCCESS method=LoginTest.tc006_signup()[pri:0, instance:testcase.LoginTest@6f03482] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method is-config="true" signature="clearbrowser()[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:57 IST" name="clearbrowser" finished-at="2025-12-23T10:44:58 IST" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearbrowser -->
+      </class> <!-- testcase.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

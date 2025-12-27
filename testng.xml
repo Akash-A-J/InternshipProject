@@ -6,7 +6,7 @@
       <class name="testcase.LoginTest"/>
     </classes>
     <listeners>
-        <listener class-name="listeners.listener"/>
+        <listener class-name="listeners.Listener"/>
     </listeners>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

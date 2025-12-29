@@ -17,10 +17,12 @@ public class Signup {
 		        wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		    }
 
+		    //Click the login button 
 		    public void login() {
 		    	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Login']"))).click();
 		    }
 		    
+		    //Click the sign
 		    public void signupbtn() {
 		    	wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Don’t have an account yet? Sign Up Now"))).click();;
 		    	

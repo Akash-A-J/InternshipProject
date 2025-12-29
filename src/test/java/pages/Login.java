@@ -16,22 +16,27 @@ public class Login {
         wait = new WebDriverWait(driver, Duration.ofSeconds(30));
     }
 
+    //Check whether the login button is displayed and clickable
     public boolean chkbtn() {
         return wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Login']"))).isDisplayed();
     }
 
+    //click on the login button
     public void clkloginbtn() {
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[text()='Login']"))).click();
     }
 
+    //Type in the usename or email
     public void getuname(String name) {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("email"))).sendKeys(name);
     }
 
+    //Type in the password
     public void getpass(String passw) {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("password"))).sendKeys(passw);
     }
 
+    //Click the login button
     public void loginclk() {
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@type='submit']"))).click();
     }

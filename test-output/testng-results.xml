@@ -2,50 +2,50 @@
 <testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-23T10:44:49 IST" name="Default suite" finished-at="2025-12-23T10:44:58 IST" duration-ms="8879">
+  <suite started-at="2025-12-29T23:29:58 IST" name="Default suite" finished-at="2025-12-29T23:30:07 IST" duration-ms="9655">
     <groups>
     </groups>
-    <test started-at="2025-12-23T10:44:49 IST" name="Default test" finished-at="2025-12-23T10:44:58 IST" duration-ms="8879">
+    <test started-at="2025-12-29T23:29:58 IST" name="Default test" finished-at="2025-12-29T23:30:07 IST" duration-ms="9655">
       <class name="testcase.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:49 IST" name="setup" finished-at="2025-12-23T10:44:51 IST" duration-ms="2340" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.LoginTest@3cd3e762]" started-at="2025-12-29T23:29:58 IST" name="setup" finished-at="2025-12-29T23:30:00 IST" duration-ms="2141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:51 IST" name="SetUp" finished-at="2025-12-23T10:44:51 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:testcase.LoginTest@3cd3e762]" started-at="2025-12-29T23:30:00 IST" name="SetUp" finished-at="2025-12-29T23:30:00 IST" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="tc001_login()[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:51 IST" name="tc001_login" finished-at="2025-12-23T10:44:52 IST" duration-ms="687" status="PASS">
+        <test-method signature="tc001_login()[pri:0, instance:testcase.LoginTest@3cd3e762]" started-at="2025-12-29T23:30:00 IST" name="tc001_login" finished-at="2025-12-29T23:30:00 IST" duration-ms="405" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc001_login -->
-        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:52 IST" name="captureScreenshotOnFailure" finished-at="2025-12-23T10:44:52 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:testcase.LoginTest@3cd3e762]" started-at="2025-12-29T23:30:00 IST" name="captureScreenshotOnFailure" finished-at="2025-12-29T23:30:00 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=tc001_login status=SUCCESS method=LoginTest.tc001_login()[pri:0, instance:testcase.LoginTest@6f03482] output={null}]]]>
+                <![CDATA[[TestResult name=tc001_login status=SUCCESS method=LoginTest.tc001_login()[pri:0, instance:testcase.LoginTest@3cd3e762] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureScreenshotOnFailure -->
-        <test-method signature="tc002_addProject()[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:52 IST" name="tc002_addProject" finished-at="2025-12-23T10:44:54 IST" duration-ms="1831" status="PASS">
+        <test-method signature="tc002_addProject()[pri:0, instance:testcase.LoginTest@3cd3e762]" started-at="2025-12-29T23:30:00 IST" name="tc002_addProject" finished-at="2025-12-29T23:30:05 IST" duration-ms="4369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc002_addProject -->
-        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:54 IST" name="captureScreenshotOnFailure" finished-at="2025-12-23T10:44:54 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:testcase.LoginTest@3cd3e762]" started-at="2025-12-29T23:30:05 IST" name="captureScreenshotOnFailure" finished-at="2025-12-29T23:30:05 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=tc002_addProject status=SUCCESS method=LoginTest.tc002_addProject()[pri:0, instance:testcase.LoginTest@6f03482] output={null}]]]>
+                <![CDATA[[TestResult name=tc002_addProject status=SUCCESS method=LoginTest.tc002_addProject()[pri:0, instance:testcase.LoginTest@3cd3e762] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureScreenshotOnFailure -->
-        <test-method signature="tc003_addMentor()[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:54 IST" name="tc003_addMentor" finished-at="2025-12-23T10:44:56 IST" duration-ms="2124" status="FAIL">
+        <test-method signature="tc003_addMentor()[pri:0, instance:testcase.LoginTest@3cd3e762]" started-at="2025-12-29T23:30:05 IST" name="tc003_addMentor" finished-at="2025-12-29T23:30:06 IST" duration-ms="1665" status="FAIL">
           <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
               <![CDATA[element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1ujsas3" tabindex="0" type="button">...</button> is not clickable at point (1028, 526). Other element would receive the click: <div class="MuiAutocomplete-noOptions css-t0bixx" role="presentation">...</div>
@@ -53,10 +53,10 @@
 Build info: version: '4.38.0', revision: '6b412e825c*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ca986675c3faafc221c9e6bcb1de4bf0, clickElement {id=f.1760CF04D70838A48CB398474B5DCCC1.d.259979E07A2671E3C9195388121A18DE.e.35}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:/temp/chrome-profile-auto...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50938}, goog:processID: 9716, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50938/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (ca986675c3faafc221c9e6bcb1de4bf0)] -> xpath: //button[text()='Add']]
-Session ID: ca986675c3faafc221c9e6bcb1de4bf0]]>
+Command: [1c28ff40a3fde534d15ac9fb599b790e, clickElement {id=f.BB82325956F4768541EBDF4DC84B6763.d.CEF18873920E0F79456F9FE7C24C5335.e.34}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:/temp/chrome-profile-auto...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58503}, goog:processID: 31452, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58503/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1c28ff40a3fde534d15ac9fb599b790e)] -> xpath: //button[text()='Add']]
+Session ID: 1c28ff40a3fde534d15ac9fb599b790e]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1ujsas3" tabindex="0" type="button">...</button> is not clickable at point (1028, 526). Other element would receive the click: <div class="MuiAutocomplete-noOptions css-t0bixx" role="presentation">...</div>
@@ -64,10 +64,10 @@ Session ID: ca986675c3faafc221c9e6bcb1de4bf0]]>
 Build info: version: '4.38.0', revision: '6b412e825c*'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.8'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ca986675c3faafc221c9e6bcb1de4bf0, clickElement {id=f.1760CF04D70838A48CB398474B5DCCC1.d.259979E07A2671E3C9195388121A18DE.e.35}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:/temp/chrome-profile-auto...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50938}, goog:processID: 9716, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50938/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (ca986675c3faafc221c9e6bcb1de4bf0)] -> xpath: //button[text()='Add']]
-Session ID: ca986675c3faafc221c9e6bcb1de4bf0
+Command: [1c28ff40a3fde534d15ac9fb599b790e, clickElement {id=f.BB82325956F4768541EBDF4DC84B6763.d.CEF18873920E0F79456F9FE7C24C5335.e.34}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.169 (164b20aab62..., userDataDir: C:/temp/chrome-profile-auto...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58503}, goog:processID: 31452, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58503/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1c28ff40a3fde534d15ac9fb599b790e)] -> xpath: //button[text()='Add']]
+Session ID: 1c28ff40a3fde534d15ac9fb599b790e
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -80,7 +80,7 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
 at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
 at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at pages.MentorHome.mntrAdd(MentorHome.java:58)
+at pages.MentorHome.mntrAdd(MentorHome.java:72)
 at testcase.LoginTest.tc003_addMentor(LoginTest.java:74)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
@@ -114,33 +114,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc003_addMentor -->
-        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:56 IST" name="captureScreenshotOnFailure" finished-at="2025-12-23T10:44:56 IST" duration-ms="208" status="PASS">
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:testcase.LoginTest@3cd3e762]" started-at="2025-12-29T23:30:06 IST" name="captureScreenshotOnFailure" finished-at="2025-12-29T23:30:07 IST" duration-ms="100" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=tc003_addMentor status=FAILURE method=LoginTest.tc003_addMentor()[pri:0, instance:testcase.LoginTest@6f03482] output={null}]]]>
+                <![CDATA[[TestResult name=tc003_addMentor status=FAILURE method=LoginTest.tc003_addMentor()[pri:0, instance:testcase.LoginTest@3cd3e762] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureScreenshotOnFailure -->
-        <test-method signature="tc004_logut()[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:56 IST" name="tc004_logut" finished-at="2025-12-23T10:44:56 IST" duration-ms="116" status="PASS">
+        <test-method signature="tc004_logut()[pri:0, instance:testcase.LoginTest@3cd3e762]" started-at="2025-12-29T23:30:07 IST" name="tc004_logut" finished-at="2025-12-29T23:30:07 IST" duration-ms="54" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc004_logut -->
-        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:56 IST" name="captureScreenshotOnFailure" finished-at="2025-12-23T10:44:56 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=tc004_logut status=SUCCESS method=LoginTest.tc004_logut()[pri:0, instance:testcase.LoginTest@6f03482] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- captureScreenshotOnFailure -->
-        <test-method signature="tc005_wrong()[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:56 IST" name="tc005_wrong" finished-at="2025-12-23T10:44:56 IST" duration-ms="408" status="FAIL">
+        <test-method signature="tc005_wrong()[pri:0, instance:testcase.LoginTest@3cd3e762]" started-at="2025-12-29T23:30:07 IST" name="tc005_wrong" finished-at="2025-12-29T23:30:07 IST" duration-ms="207" status="FAIL">
           <exception class="java.lang.NoSuchMethodError">
             <message>
               <![CDATA['org.apache.commons.io.input.BoundedInputStream$Builder org.apache.commons.io.input.BoundedInputStream.builder()']]>
@@ -191,33 +180,44 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc005_wrong -->
-        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:56 IST" name="captureScreenshotOnFailure" finished-at="2025-12-23T10:44:57 IST" duration-ms="413" status="PASS">
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:testcase.LoginTest@3cd3e762]" started-at="2025-12-29T23:30:07 IST" name="captureScreenshotOnFailure" finished-at="2025-12-29T23:30:07 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=tc005_wrong status=FAILURE method=LoginTest.tc005_wrong()[pri:0, instance:testcase.LoginTest@6f03482] output={null}]]]>
+                <![CDATA[[TestResult name=tc004_logut status=SUCCESS method=LoginTest.tc004_logut()[pri:0, instance:testcase.LoginTest@3cd3e762] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureScreenshotOnFailure -->
-        <test-method signature="tc006_signup()[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:57 IST" name="tc006_signup" finished-at="2025-12-23T10:44:57 IST" duration-ms="221" status="PASS">
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:testcase.LoginTest@3cd3e762]" started-at="2025-12-29T23:30:07 IST" name="captureScreenshotOnFailure" finished-at="2025-12-29T23:30:07 IST" duration-ms="218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc005_wrong status=FAILURE method=LoginTest.tc005_wrong()[pri:0, instance:testcase.LoginTest@3cd3e762] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotOnFailure -->
+        <test-method signature="tc006_signup()[pri:0, instance:testcase.LoginTest@3cd3e762]" started-at="2025-12-29T23:30:07 IST" name="tc006_signup" finished-at="2025-12-29T23:30:07 IST" duration-ms="97" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc006_signup -->
-        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:57 IST" name="captureScreenshotOnFailure" finished-at="2025-12-23T10:44:57 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="captureScreenshotOnFailure(org.testng.ITestResult)[pri:0, instance:testcase.LoginTest@3cd3e762]" started-at="2025-12-29T23:30:07 IST" name="captureScreenshotOnFailure" finished-at="2025-12-29T23:30:07 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=tc006_signup status=SUCCESS method=LoginTest.tc006_signup()[pri:0, instance:testcase.LoginTest@6f03482] output={null}]]]>
+                <![CDATA[[TestResult name=tc006_signup status=SUCCESS method=LoginTest.tc006_signup()[pri:0, instance:testcase.LoginTest@3cd3e762] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- captureScreenshotOnFailure -->
-        <test-method is-config="true" signature="clearbrowser()[pri:0, instance:testcase.LoginTest@6f03482]" started-at="2025-12-23T10:44:57 IST" name="clearbrowser" finished-at="2025-12-23T10:44:58 IST" duration-ms="438" status="PASS">
+        <test-method is-config="true" signature="clearbrowser()[pri:0, instance:testcase.LoginTest@3cd3e762]" started-at="2025-12-29T23:30:07 IST" name="clearbrowser" finished-at="2025-12-29T23:30:07 IST" duration-ms="326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearbrowser -->

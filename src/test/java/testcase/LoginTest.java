@@ -26,6 +26,7 @@ import utility.ExcelUtility;
 @Listeners(listeners.Listener.class)
 public class LoginTest extends Base {
 
+	//page object reference
     Login obj;
     Homepage hobj;
     MentorHome mobj;
@@ -33,8 +34,11 @@ public class LoginTest extends Base {
     Signup sobj;
     Wrong wrng;
 
+    //Initialize page objects before executing any test cases
     @BeforeClass
     public void SetUp() {
+    	
+    	// Pass WebDriver instance from Base class to each Page Object
         obj = new Login(driver);
         hobj = new Homepage(driver);
         mobj = new MentorHome(driver);
@@ -43,6 +47,8 @@ public class LoginTest extends Base {
         wrng = new Wrong(driver);
     }
 
+    
+    // Test Case 001: Verify successful login functionality
     @Test
     public void tc001_login() {
         Assert.assertTrue(obj.chkbtn(), "Login button not visible");
@@ -52,6 +58,8 @@ public class LoginTest extends Base {
         obj.loginclk();
     }
 
+    
+    // Test Case 002: Add a new project
     @Test
     public void tc002_addProject() {
         hobj.addProject();
@@ -61,6 +69,8 @@ public class LoginTest extends Base {
         
     }
 
+    
+    // Test Case 003: Add a mentor and assign project
     @Test
     public void tc003_addMentor() {
         mobj.clkMentor();
@@ -73,12 +83,15 @@ public class LoginTest extends Base {
         mobj.mntrProject("HTML");
         mobj.mntrAdd();
     }
+    
+    // Test Case 004: Logout from the application
     @Test
     public void tc004_logut(){
     	  
     	 lobj.clickLogout();
     }
 
+    // Test Case 005: Validate login with incorrect credentials using Excel data
     @Test
     public void tc005_wrong() throws IOException {
     	
@@ -89,6 +102,8 @@ public class LoginTest extends Base {
         wrng.loginclick();
 
     }
+    
+    // Test Case 006: Verify signup navigation
     @Test
     public void tc006_signup() {
 
